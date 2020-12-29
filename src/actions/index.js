@@ -1,4 +1,4 @@
-import { appActionsType } from '../constans';
+import { appActionsType } from '../constants';
 
 export const getAllAuthors = () => {
   return (dispatch) => {

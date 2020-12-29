@@ -9,7 +9,11 @@ function AuthorImage({ authorID }) {
   } else {
     src = author.urls.full;
   }
-  return <img style={{ width: author.width, height: author.height }} src={src} />;
+  return (
+    <div className="authorImg">
+      <img src={src} />
+    </div>
+  );
 }
 
 export default AuthorImage;
